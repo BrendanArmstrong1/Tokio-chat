@@ -1,4 +1,7 @@
-use tokio::{io::{AsyncReadExt, AsyncWriteExt}, net::TcpListener};
+use tokio::{
+    io::{AsyncReadExt, AsyncWriteExt},
+    net::TcpListener,
+};
 
 #[tokio::main]
 async fn main() {
